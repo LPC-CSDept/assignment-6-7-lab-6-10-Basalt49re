@@ -25,5 +25,19 @@ void swap(int &num1,int &num2, int &num3)
    } else {
       max = num3;
    }
+    
+   
+    if (num1 != min && num1 !=max){
+        remainder =num1;
+    }
+    if (num2 != min && num2 !=max){
+        remainder =num2;}
 
+    if (num3 != min && num3 !=max){
+        remainder =num3;}
+    num1 = min;
+    num2 = remainder;
+    num3 = max;
+    
+    
 }
