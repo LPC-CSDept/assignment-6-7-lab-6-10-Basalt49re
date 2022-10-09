@@ -26,7 +26,7 @@ void swap(int &num1,int &num2, int &num3)
       max = num3;
    }
     
-   int main = num1;
+   int smallest = num1;
    int min;
    if (num2< min)
     min = num2;
