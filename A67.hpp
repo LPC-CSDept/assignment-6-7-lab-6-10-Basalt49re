@@ -47,3 +47,8 @@ void swap(int &num1,int &num2, int &num3)
     
     
 }
+void swap (int &num1, int &num2, int &num3, int &num4){
+    swap(num1,num2);
+    swap(num2,num4);
+    swap(num2,num3);
+}
